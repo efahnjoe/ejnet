@@ -1,0 +1,25 @@
+[install]
+optional = true
+dev = true
+peer = true
+production = false
+exact = false
+auto = "auto"
+registry = "https://registry.npmjs.org"
+
+[install.lockfile]
+save = true
+
+[dependencies]
+
+[run]
+shell = "system" # default outside of Windows
+
+[build]
+minify = true
+target = "esnext"
+
+[test]
+root = "./__tests__"
+coverage = true
+# coverageThreshold = 0.9
