@@ -41,7 +41,7 @@
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-angular": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@commitlint/prompt-cli": "^19.8.1",
+    "@commitlint/prompt-cli": "^20.0.0",
     "@types/bun": "latest",
     "@types/finalhandler": "^1.2.4",
     "@types/fs-extra": "^11.0.4",
