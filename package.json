@@ -25,12 +25,16 @@
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint --cache .",
-    "build": "bun-build --lib --ignore types --src src --out lib",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "build": "bun run typecheck && bun-build --lib --ignore types --src src --out lib",
     "test": "bun test",
     "clean": "rimraf node_modules/.tmp",
     "prepare": "husky",
     "commit": "commit",
     "publish": "npm publish --access public"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@types/debug": "^4.1.12",
