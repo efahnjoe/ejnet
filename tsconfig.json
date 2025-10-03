@@ -5,9 +5,10 @@
       "DOM"
     ],
     "tsBuildInfoFile": "./node_modules/.tmp/tsbuild/.tsbuildinfo",
-    "target": "ESNext",
-    "module": "Preserve",
+    "target": "esnext",
+    "module": "esnext",
     "moduleDetection": "force",
+    "moduleResolution": "bundler",
     "allowJs": false,
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
@@ -21,17 +22,43 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false,
-    "outDir": "dist",
+    "outDir": "lib",
     "rootDir": "src",
-    "composite": true,
     "declaration": true,
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@common/*": [
+        "./src/common/*"
+      ],
+      "@core/*": [
+        "./src/core/*"
+      ],
+      "@router/*": [
+        "./src/router/*"
+      ],
+      "@tools/*": [
+        "./src/tools/*"
+      ],
+      "@shared/types/*": [
+        "./src/types/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ]
+    },
   },
   "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "*.test.*"
+    "src/index.ts",
+    "src/common/**/*",
+    "src/core/**/*",
+    "src/router/**/*",
+    "src/tools/**/*",
+    "src/types/**/*",
+    "src/utils/**/*",
   ]
 }
