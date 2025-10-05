@@ -1,2 +1,1 @@
-export * from './router';
-export type * from './types';
+export { methods } from "@common/http";
