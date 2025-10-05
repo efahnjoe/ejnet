@@ -36,6 +36,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "packageManager": "bun@1.2.23",
   "dependencies": {
     "@types/debug": "^4.1.12",
     "@types/express": "^5.0.3",
