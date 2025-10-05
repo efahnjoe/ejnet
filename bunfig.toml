@@ -13,7 +13,7 @@ save = true
 [dependencies]
 
 [run]
-shell = "system" # default outside of Windows
+shell = "bun" # default outside of Windows
 
 [build]
 minify = true
