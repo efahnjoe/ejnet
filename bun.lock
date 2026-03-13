@@ -49,7 +49,7 @@
 
     "@commitlint/cli": ["@commitlint/cli@20.4.4", "", { "dependencies": { "@commitlint/format": "^20.4.4", "@commitlint/lint": "^20.4.4", "@commitlint/load": "^20.4.4", "@commitlint/read": "^20.4.4", "@commitlint/types": "^20.4.4", "tinyexec": "^1.0.0", "yargs": "^17.0.0" }, "bin": { "commitlint": "./cli.js" } }, "sha512-GLMNQHYGcn0ohL2HMlAnXcD1PS2vqBBGbYKlhrRPOYsWiRoLWtrewsR3uKRb9v/IdS+qOS0vqJQ64n1g8VPKFw=="],
 
-    "@commitlint/config-angular": ["@commitlint/config-angular@20.2.0", "", { "dependencies": { "@commitlint/config-angular-type-enum": "^20.0.0" } }, "sha512-/FwLctMaBM8DxFuJ3TtEmNMpAzs/sOO8ZahDFWZYg8BN4aFk2n7UUd8qMKw3s0Sn9BC1xabLbJSPOqf4kKSDOw=="],
+    "@commitlint/config-angular": ["@commitlint/config-angular@20.4.4", "", { "dependencies": { "@commitlint/config-angular-type-enum": "^20.0.0" } }, "sha512-sXxTQLw86nambAh5Wno0fNpfAPDwJ+HkfPUvZ87MCORe0sfEZlYXVZD47hpUl46xrU+kpfJl/JAIrcPTSauwyQ=="],
 
     "@commitlint/config-angular-type-enum": ["@commitlint/config-angular-type-enum@20.0.0", "", {}, "sha512-6HAMnXyUl3EUBgECjvfLzlghbkMfZx28YBPDry3pPWR0+xpzqSbUY19VIkmdetqYKeawFViudvkqD4VH93gKKg=="],
 
